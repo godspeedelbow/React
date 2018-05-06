@@ -1,7 +1,7 @@
 > Please help us improve and share your feedback! If you find better tutorials
 or links, please share them by [opening a pull request](https://github.com/HackYourFuture/React/pulls).
 
-# HackYourFuture - React
+# HackYourFuture - Malmö - React
 
 In this 5 week module we will learn React!
 
@@ -9,12 +9,17 @@ In this 5 week module we will learn React!
 | Week | Topic | Read | In Class | Homework |
 | ---- | ----- | ---- | -------- | -------- |
 | 1. | React Components | [JSX](https://reactjs.org/docs/introducing-jsx.html), [Elements](https://reactjs.org/docs/rendering-elements.html), [Components and Props](https://reactjs.org/docs/components-and-props.html) | [W1 Lesson Plan](documentation/lesson-plans/W1-lesson-plan.md) | [W1 Homework](documentation/homework/W1-homework.md) |
-| 2. | State and Lifecycle | [Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html), [Events](https://reactjs.org/docs/handling-events.html), [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html), [List and Keys](https://reactjs.org/docs/lists-and-keys.html) | [W2 Lesson Plan](documentation/lesson-plans/W2-lesson-plan.md) | [W2 Homework](documentation/homework/W2-homework.md) |
-| 3. | Forms and Managing State | [Forms](https://reactjs.org/docs/forms.html), [Manage State](https://reactjs.org/docs/lifting-state-up.html), [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) | [W3 Lesson Plan](documentation/lesson-plans/W3-lesson-plan.md) | [W3 Homework](documentation/homework/W3-homework.md) |
-| 4. | Flux & MobX | [MobX](https://mobx.js.org/), [Flux Concepts](https://github.com/facebook/flux/tree/master/examples/flux-concepts) | [W4 Lesson Plan](documentation/lesson-plans/W4-lesson-plan.md) | [W4 Homework](documentation/homework/W4-homework.md) |
-| 5. | API Integration | [MobX Async Actions](https://mobx.js.org/best/actions.html) |  [W5 Lesson Plan](documentation/lesson-plans/W5-lesson-plan.md) | [W5 Homework](documentation/homework/W5-homework.md) |
+| 2. | TBD | TBD | TBD | TBD |
+| 3. | TBD | TBD | TBD | TBD |
+| 4. | TBD | TBD | TBD | TBD |
+| 5. | TBD | TBD | TBD | TBD |
 
-## Read up before we get started
+## Handing in homework
+Take a look at [this video](https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA) made by Daan, he explains how your homework needs to be handed in.
+
+Also review the Git [workflow material](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md) from the JavaScript3 module, use this as a reference.
+
+## Some background information about React and JS
 
 Watch this video from Facebook about why they started React:
 
@@ -38,17 +43,6 @@ Please *do not worry about understanding all*. However, do make sure you underst
 Read about React here:
 
 https://facebook.github.io/react/
-
-## Handing in homework
-Take a look at [this video](https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA) made by Daan, he explains how your homework needs to be handed in.
-
-Also review the Git [workflow material](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md) from the JavaScript3 module, use this as a reference.
-
-## Slides
-
-Find the slides used in class here:
-
-https://slides.com/joostlubach/react-class/live
 
 ## Learning examples
 
