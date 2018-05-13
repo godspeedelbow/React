@@ -21,7 +21,7 @@ You know from this weeks lesson how to inject data into a component and how to c
 
 - In your project, create a component `Article.js` that prints `title` from `props`. In `App`, map the HN data to `Article`s. Verify that all articles get printed in the browser.
 
-- Add more fields to the `Article` component (check out the data to see _what_ is there). Verify that they get printed. Lookup how you can turn `ISOTime` into a `Date` object and print only the date (not the time).
+- Add more fields (i.e. url to the article, who created it, when it was created) to the `Article` component (check out the data to see _what_ is there). Verify that they get printed. Lookup how you can turn `ISOTime` into a `Date` object and print only the date (not the time).
 
 - Make it look like the original Hacker News website, with CSS. You can create an `Article.css` that you `import` in `Article.js`.
 
