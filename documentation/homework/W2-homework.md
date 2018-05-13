@@ -1,6 +1,6 @@
-# Homework Week 1
+# Homework Week 2
 
-Fork this repository and base your week 2 homework on [create react app](https://github.com/facebook/create-react-app#quick-overview).
+Reuse the app from week 1 for this week. Don't forget to `git commit` and `git push` your changes from week 1 before you start changing it for week 2.
 
 See instructions on how to get started with "create react app":
 [https://github.com/facebook/create-react-app#quick-overview](https://github.com/facebook/create-react-app#quick-overview)
