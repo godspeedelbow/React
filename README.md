@@ -9,7 +9,7 @@ In this 5 week module we will learn React!
 | Week | Topic | Read | In Class | Homework |
 | ---- | ----- | ---- | -------- | -------- |
 | 1. | React Components | [JSX](https://reactjs.org/docs/introducing-jsx.html), [Elements](https://reactjs.org/docs/rendering-elements.html), [Components and Props](https://reactjs.org/docs/components-and-props.html) | [W1 Lesson Plan](documentation/lesson-plans/W1-lesson-plan.md) | [W1 Homework](documentation/homework/W1-homework.md) |
-| 2. | TBD | TBD | TBD | TBD |
+| 2. | Dynamic components | [JSX](https://reactjs.org/docs/introducing-jsx.html) | [W2 Lesson Plan](documentation/lesson-plans/W2-lesson-plan.md) | [W2 Homework](documentation/homework/W2-homework.md) |
 | 3. | TBD | TBD | TBD | TBD |
 | 4. | TBD | TBD | TBD | TBD |
 | 5. | TBD | TBD | TBD | TBD |
