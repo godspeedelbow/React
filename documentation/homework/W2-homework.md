@@ -21,7 +21,7 @@ You know from this weeks lesson how to inject data into a component and how to c
 
 - In your project, create a component `Article.js` that prints `title` from `props`. In `App`, map the HN data to `Article`s. Verify that all articles get printed in the browser.
 
-- Add more fields to the `Article` component (check out the data to see _what_ is there). Verify that they get printed.
+- Add more fields to the `Article` component (check out the data to see _what_ is there). Verify that they get printed. Lookup how you can turn `ISOTime` into a `Date` object and print only the date (not the time).
 
 - Make it look nice with CSS. You can create an `Article.css` that you `import` in `Article.js`.
 
@@ -31,10 +31,13 @@ You know from this weeks lesson how to inject data into a component and how to c
   - after:
   `<App /> => <ArticleList /> => multiple <Article />`
 
+- BONUS 2: use "conditional rendering" to show certain articles, but not others. Add the conditional rendering to `Article.js`. For example, you could decide to render the article only if it was posted before a certain date.
+
 ## Scoring
 
 You will be scored on:
 
-- Composition
+- Completion
 - Code organisation
 - Cleanliness of code
+- BONUS
