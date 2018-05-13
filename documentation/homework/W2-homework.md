@@ -23,7 +23,7 @@ You know from this weeks lesson how to inject data into a component and how to c
 
 - Add more fields to the `Article` component (check out the data to see _what_ is there). Verify that they get printed. Lookup how you can turn `ISOTime` into a `Date` object and print only the date (not the time).
 
-- Make it look nice with CSS. You can create an `Article.css` that you `import` in `Article.js`.
+- Make it look like the original Hacker News website, with CSS. You can create an `Article.css` that you `import` in `Article.js`.
 
 - BONUS: Create an intermediate component between `App.js` and `Article.js`, called `ArticleList.js`. In `App`, you use/compose only `ArticleList`, ie. `<ArticleList />`. In `ArticleList` you `import` the data, map over it and compose `Article.js`.
   - before:
