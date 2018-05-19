@@ -2,10 +2,10 @@
 
 * show & discuss homework
 * quick recap of week 2 material: any questions?
+* what is state?
 * introduce concept of class component
   * show minimal component: render
   * constructor
-  * state, in general: what is it?
   * `this.setState()`
   * example: routing using state
 * how fetch data with class component (click => fetch)
