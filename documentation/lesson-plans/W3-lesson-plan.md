@@ -13,6 +13,40 @@
 
 ### Code
 
+`<Counter />` example
+```js
+class Counter extends Component {
+  constructor(props) {
+    super(props);
+    this.props = props;
+    this.state = {
+      counter: 0,
+      running: true,
+    };
+
+    setInterval(() => {
+      if (!this.state.running) return;
+      this.setState({
+        counter: this.state.counter + 1
+      });
+    }, 1000);
+  }
+
+  render() {
+    return (
+      <div className="Counter">
+        counter: {this.state.counter}
+        <button onClick={() => this.setState({ counter: 0 })}>reset</button>
+        { this.state.running
+          ? <button onClick={() => this.setState({ running: false })}>pause</button>
+          : <button onClick={() => this.setState({ running: true })}>continue</button>
+        }
+      </div>
+    );
+  }
+}
+```
+
 Use this code to fetch Hacker News stories (put it in a file and import it):
 
 ```js
