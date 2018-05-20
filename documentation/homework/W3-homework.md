@@ -36,7 +36,7 @@ show a "Loading ..." text when the data is loading
 - To improve the user experience, show the user that the data is on the way by displaying a "Loading ..." text while the data is loading.
 
 - BONUS 2: if there's an error from the API, show the error
-- if there's an error show it on the page. You can test it by using the Chrome Developer Tools. Go to the Performance Tab and set Network to offline
+- if there's an error show it on the page. You can test it by using the Chrome Developer Tools. Go to the Performance Tab, Press the gear button on the right and set Network to offline
 
 ## Scoring
 
