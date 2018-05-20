@@ -15,7 +15,7 @@ You know from this weeks lesson how to update the state of a component using set
 
 - fetch stories from Hacker News
   - use the following library code [getHNStories](W3-get-hn-stories.js) to fetch stories from HN
-  - you need to install two packages. Make sure you execture this command in the root of your project (not in `/src` or anything else):
+  - you need to install two packages. Make sure you execute this command in the root of your project (not in `/src` or anything else):
     ```
     npm install graphqlhub-schemas graphql --save
     ```
