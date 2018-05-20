@@ -29,8 +29,7 @@ You know from this weeks lesson how to update the state of a component using set
     *     .catch(console.error);
     **/
     ```
- - Change your app so that instead of using the static HN data from week2, it loads the relevant data from HN based on what the user chooses.
-
+    
 - BONUS:
 show a "Loading ..." text when the data is loading
 - To improve the user experience, show the user that the data is on the way by displaying a "Loading ..." text while the data is loading.
