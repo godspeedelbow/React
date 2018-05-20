@@ -14,7 +14,7 @@ You know from this weeks lesson how to update the state of a component using set
   - when you click another, the original stories should disappear and the new ones should be shown. Once again using the HN data from week2. 
 
 - fetch stories from Hacker News 
-  - use the following library code [getHNStories](W3-gethnstories.js) to fetch stories from HN, try to not worry about how exactly it is implemented but instead look at/run the example and try to figure out how it works: 
+  - use the following library code [getHNStories](W3-get-hn-stories.js) to fetch stories from HN, try to not worry about how exactly it is implemented but instead look at/run the example and try to figure out how it works: 
 ```/**
  * fetches HackerNews stories.
  * example:
