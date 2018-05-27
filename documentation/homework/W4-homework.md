@@ -23,6 +23,9 @@ Keep in mind that single player games are often much easier to make than multi p
 2. analyse the game and **write it down**. Answer these questions:
   - is it a one- or two-player game?
   - what is the goal of the game?
+  - what is _in_ the game? what are the entities, the _things_ it consists of?
+  - what can a player _do_ in this game?
+  - what are the **rules** of the game?
   - what are the states the game can be in?
     - what is the begin state? what is the end state? are there any intermediate states?
     - how doe the game progress from one state to the next? what actions can the player take? If you can write it down like a formula, that's always smart to do. E.g:
