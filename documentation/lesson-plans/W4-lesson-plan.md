@@ -5,7 +5,7 @@
 * lifting state (communicating between siblings)
 * react dev tools
 
-* build together: <TicTacToe />
+* build together: ```<TicTacToe />```
   - example: http://tictactoe.com/
   
   - problem definition: what are the requirements for the component?
