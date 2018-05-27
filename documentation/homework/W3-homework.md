@@ -10,8 +10,8 @@ You know from this weeks lesson how to update the state of a component using set
 
 - make a navigation bar for different types of HN stories: `top`, `new`, `show`, `ask`, `job`
   - add these items to the navbar (add a navbar if you don't have one yet, we have done it as a part of the week3 lecture)
-  - when you click on one of the items, it should load the respective stories below. For example if you click on `job` the job stories should appear. Use the HN data from the week2 exercise.
-  - when you click another, the original stories should disappear and the new ones should be shown. Once again using the HN data from week2.
+  - when you click on one of the items, it should load the respective stories below. For example if you click on `job` the job stories should appear.
+  - when you click another, the original stories should disappear and the new ones should be shown.
 
 - fetch stories from Hacker News
   - use the following library code [getHNStories](W3-get-hn-stories.js) to fetch stories from HN
