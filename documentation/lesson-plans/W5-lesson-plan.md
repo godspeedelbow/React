@@ -1,3 +1,5 @@
-# Lesson Plan Week 5
+# Lesson Plan Week 5 * Malmö * React
 
-TBD
+* show & discuss homework: making a game
+* recap of week 4 material
+* react dev tools
