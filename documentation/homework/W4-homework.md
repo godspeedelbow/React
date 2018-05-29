@@ -13,12 +13,13 @@ Good luck and happy coding!
 
 ## Instructions 
 
-### Setup
-Please don't hesitate to ask if you have issues with the setup.
-
-Providede Code:
+### Provided Code:
 - [index.js](https://github.com/godspeedelbow/React/blob/master/documentation/homework/W4-index.js)
 - [App.css](https://github.com/godspeedelbow/React/blob/master/documentation/homework/W4-App.css)
+
+
+### Setup
+Please don't hesitate to ask if you have issues with the setup.
 
 * Create a new react project using creat-react-app
 * Replace the code inside `src/index.js` and `src/App.css` files with the provided code/css
