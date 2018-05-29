@@ -1,23 +1,109 @@
-# Homework Week 4
-
-week 4 homework:
-- finish the Tic Tac Toe game we started during this lesson
-- the code we have created together is here: <Add link>
+# Tic-tac-toe
 
 ## Outline
+From the provided starting code you are going to build a tic-tac-toe game.
+The provided code gives you some basic components and css to work with.
+Your goal is to building a fully functional tic-tac-toe game by using the state and props in react. 
+When you are done the state of the app will be in the top of your app. Components further down the app-tree will recieve through the props passed down.
+Following the lifting state pattern which we discussed in class.[Lifting state up](https://reactjs.org/docs/lifting-state-up.html)
 
-Go to [tictactoe.com](http://tictactoe.com) and play the two player game. The goal is to re-create the game in React ourselves.
+Try not to think too far ahead but try to follow the instructions step by step. If you get stuck think, google, ask a friend , ask in slack!
 
-Remember what we discussed before we started coding, when we analysed the game:
-- A Tic Tac Toe game consists of a `Board`, `Cells`, `Pieces`
-- There are two players with each their own piece (`x` or `o`).
-- Players take turns placing pieces on the board
-- A player can only place a piece in an empty cell
-- When a player has three of her own pieces in a row, horizontally, vertically or diagonally, that player has won.
+Good luck and happy coding!
 
-## Instructions
+## Instructions 
 
-TBD
+### Provided Code:
+- [index.js](https://github.com/godspeedelbow/React/blob/master/documentation/homework/W4-index.js)
+- [App.css](https://github.com/godspeedelbow/React/blob/master/documentation/homework/W4-App.css)
+
+
+### Setup
+Please don't hesitate to ask if you have issues with the setup.
+
+* Create a new react project using creat-react-app
+* Replace the code inside `src/index.js` and `src/App.css` files with the provided code/css
+* Remove the other files inside the `src` folder. Your `src` folder should now only contains index.js andd App.css
+
+### Coding! 
+* Start by having a good look at the provided code. The code starts inside Game.js. For now we have put all the logic here. This is usually not a good idea. Here, however, we hope that it will help you get a better overview of what is happening. 
+
+* The provided code contains three components: 
+ - Game
+ - Board
+ - Cell
+They currently contain no state. Board renders the 9 cells in three distinct rows.
+Since no of the components has any state the app isn't interactive at all. That is super boring!
+
+* We'll start small by making ````<Cell/>```` interactive. So instead of using the ````props.value````. Change it so it starts of empty and becomes and ````X```` when the user clicks it. If you are stuck, think about how we have implemented other components which contain and can update state.
+
+
+* Lifting state up: Add a constructor to the Board component and set its initial state to contain an array with 9 nulls, corresponding to the 9 cells:
+```Array(9).fill(null)```
+```
+[
+  null,null,null,
+  null,null,null,
+  null,null,null
+]
+```
+This will represent the state of the board: Later it might look something like:
+```
+[
+  'X', null, 'X',
+  'O', 'X', 'O',
+  'O', null, null
+]
+```
+Pass the relevant part of the state down to the respective Cell.
+
+* Now we need to change what happens when a cell is clicked. The Board component now stores which cells are filled, which means we need some way for Cell to update the state of Board. Since component state is considered private, we can’t update Board’s state directly from Cell. 
+
+Define a function handleClick in Board and pass it down to cell as a prop. Call the function when the user clicks a Cell. 
+
+The function can be a mock function for now 
+```
+function handleClick (i) {
+    console.log('You clicked cell number: ',i)
+}
+```
+Make sure to call it with the index/number off the Cell before you pass it down.
+```
+() => this.handleClick(i) 
+```
+
+
+* Implement the handleClick to update the Board
+
+* Making the players take turns: We want to enable the players to take turns. Update Board so that it uses state to determine if the next click should make a cell a 'X' or a 'O'. Tip: it should be enough to use a boolean value.
+
+  
+* We have a game! But it never ends...
+- Use the provided calculateWinner function to determine if someone has won the game.
+``` 
+function calculateWinner(cells) {
+  const lines = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
+  ];
+  for (let i = 0; i < lines.length; i++) {
+    const [a, b, c] = lines[i];
+    if (cells[a] && cells[a] === cells[b] && cells[a] === cells[c]) {
+      return cells[a];
+    }
+  }
+  return null;
+} 
+```
+- Display a message that the game is over and who won ('X' or 'O').
+- Bonus 1: - Make it so that cells can no longer be changed when the game is over.
+- Bonus 2: - Fix the "bugg" that players can change the values in cells by clicking on them 
 
 ## Scoring
 
