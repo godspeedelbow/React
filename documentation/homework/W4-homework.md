@@ -5,14 +5,27 @@ From the provided starting code you are going to build a tic-tac-toe game.
 The provided code gives you some basic components and css to work with.
 Your goal is to building a fully functional tic-tac-toe game by using the state and props in react. 
 When you are done the state of the app will be in the top of your app. Components further down the app-tree will recieve through the props passed down.
-Following the lifting state pattern which we discussed in class. Here's a link if you want to read more about it.[Lifting state](https://reactjs.org/docs/lifting-state-up.html)
+Following the lifting state pattern which we discussed in class.[Lifting state up](https://reactjs.org/docs/lifting-state-up.html)
 
 Try not to think too far ahead but try to follow the instructions step by step. If you get stuck think, google, ask a friend , ask in slack!
 
 Good luck and happy coding!
 
 ## Instructions 
-* Start by having a good look at the provided code. The code starts inside index.js. For now we have put all the logic here. This is usually not a good idea. Here, however we hope that it will help you get a better overview of what is happening. 
+
+### Setup
+Please don't hesitate to ask if you have issues with the setup.
+
+Providede Code:
+- [index.js](https://github.com/godspeedelbow/React/blob/master/documentation/homework/W4-index.js)
+- [App.css](https://github.com/godspeedelbow/React/blob/master/documentation/homework/W4-App.css)
+
+* Create a new react project using creat-react-app
+* Replace the code inside `src/index.js` and `src/App.css` files with the provided code/css
+* Remove the other files inside the `src` folder. Your `src` folder should now only contains index.js andd App.css
+
+### Coding! 
+* Start by having a good look at the provided code. The code starts inside Game.js. For now we have put all the logic here. This is usually not a good idea. Here, however, we hope that it will help you get a better overview of what is happening. 
 
 * The provided code contains three components: 
  - Game
