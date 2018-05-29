@@ -1,15 +1,11 @@
 # Homework Week 4
 
-week 4 homework:
-- finish the Tic Tac Toe game we started during this lesson
-- the code we have created together is here: <Add link>
-
 ## Outline
 From the provided starting code you are going to build a tic-tac-toe game.
 The provided code gives you some basic components and css to work with.
 Your goal is to building a fully functional tic-tac-toe game by using the state and props in react. 
 When you are done the state of the app will be in the top of your app. Components further down the app-tree will recieve through the props passed down.
-Following the lifting state pattern which we discussed in class. Here's a link if you want to read more about it.
+Following the lifting state pattern which we discussed in class. Here's a link if you want to read more about it. [Lifting state](https://reactjs.org/docs/lifting-state-up.html)
 
 Try not to think too far ahead but try to follow the instructions step by step. If you get stuck think, google, ask a friend , ask in slack!
 
