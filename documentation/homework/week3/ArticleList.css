@@ -1,0 +1,25 @@
+.article-list {
+  margin-top: 0%;
+  padding-top: 10px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  width: 85%;
+  margin-left: 7.5%;
+  vertical-align: middle;
+  background-color: rgb(246, 246, 239);
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-inherit;
+  text-align: start;
+  font-variant: normal;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+}

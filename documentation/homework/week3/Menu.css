@@ -1,0 +1,12 @@
+.app-header {
+  width: 87.6%;
+  margin-left: 7.5%;
+  margin-bottom: 0%;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgb(255, 102, 0);
+}
+
+.main-title {
+  font-size: large;
+  font-weight: bold;
+}

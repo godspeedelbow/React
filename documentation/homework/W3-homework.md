@@ -1,5 +1,8 @@
 # Homework Week 3
+
 Reuse the app from week 2 for this week. Don't forget to git commit and git push your changes from week 2 before you start changing it for week 3.
+
+**NOTE**: you can find the solution to this homework here: [week 3 solution](week3/).
 
 ## Outline
 Build an application thats loads and displays stories from Hacker News. The user should be able to decide which stories he/she wants to see.
@@ -29,7 +32,7 @@ You know from this weeks lesson how to update the state of a component using set
     *     .catch(console.error);
     **/
     ```
-    
+
 - BONUS:
 show a "Loading ..." text when the data is loading
 - To improve the user experience, show the user that the data is on the way by displaying a "Loading ..." text while the data is loading.
