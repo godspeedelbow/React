@@ -88,8 +88,8 @@ function calculateWinner(cells) {
 } 
 ```
 - Display a message that the game is over and who won ('X' or 'O').
-Bonus 1: - Make it so that cells can no longer be changed when the game is over.
-Bonus 2: - Fix the "bugg" that players can change the values in cells by clicking on them 
+- Bonus 1: - Make it so that cells can no longer be changed when the game is over.
+- Bonus 2: - Fix the "bugg" that players can change the values in cells by clicking on them 
 
 ## Scoring
 
