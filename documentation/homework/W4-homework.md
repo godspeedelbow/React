@@ -22,7 +22,7 @@ Good luck and happy coding!
 Please don't hesitate to ask if you have issues with the setup.
 
 * Create a new react project using creat-react-app
-* Replace the code inside `src/index.js` and `src/App.css` files with the provided code/css
+* Replace the code inside `src/index.js` with index.js  and `src/App.css` with the code in App.css
 * Remove the other files inside the `src` folder. Your `src` folder should now only contains index.js andd App.css
 
 ### Coding! 
