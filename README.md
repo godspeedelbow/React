@@ -12,7 +12,7 @@ In this 5 week module we will learn React!
 | 2. | Dynamic components | [JSX](https://reactjs.org/docs/introducing-jsx.html) | [W2 Lesson Plan](documentation/lesson-plans/W2-lesson-plan.md) | [W2 Homework](documentation/homework/W2-homework.md) |
 | 3. | Class Components and state | [Components and Props](https://reactjs.org/docs/components-and-props.html), [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html) | [W3 Lesson Plan](documentation/lesson-plans/W3-lesson-plan.md) | [W3 Homework](documentation/homework/W3-homework.md) |
 | 4. | Building a game | [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)| [W4 Lesson Plan](documentation/lesson-plans/W4-lesson-plan.md) | [W4 Homework](documentation/homework/W4-homework.md) |
-| 5. | TBD | TBD | TBD | TBD |
+| 5. | Building a game: part 2 | [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) | TBD | [W5 Homework](documentation/homework/W5-homework.md) |
 
 ## Handing in homework
 Take a look at [this video](https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA) made by Daan, he explains how your homework needs to be handed in.
